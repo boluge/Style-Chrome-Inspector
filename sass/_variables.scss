@@ -1,0 +1,62 @@
+//Couleurs
+$blanc: #ede0ce;
+$bleu: #27a6a6;
+$orange: #ff5d37;
+$vert: #b0d42a;
+$gris: #7a7267;
+$background: #2b2a27;
+$bgfonce: #202020;
+
+// globals
+$font: white;
+$border: #444444;
+$background: $background;
+$current-line: #282a2e;
+$selection: lighten(#1d1f21, 3%);
+$foreground: #c5c8c6;
+
+//toolbar
+$toolbar-label: #afacac;
+$toolbar-label-active: #f0f0f0;
+$toolbar-bg: darken(#393939,3);
+$toolbar-bg-active: #393939;
+$toolbar-border-top: $bgfonce;
+$toolbar-border-bottom: #969696;
+
+//statusbar
+$statusbar-border: #444444;
+$statusbar-text: darken($blanc, 60%);
+$statusbar-text-active: darken($blanc, 15%);
+
+// html
+$html-attribute-name: $orange;
+$html-attribute-value: $vert;
+$html-comment: $gris;
+$html-js-node: $vert;
+$html-link: $vert;
+$html-tag: $bleu;
+$html-text-node: $blanc;
+
+// css
+$css-comment: $gris;
+$css-keyword: #db925f;
+$css-number: #db925f;
+$css-property: #eec574;
+$css-selector: #bbde57;
+$css-special-rule: #b094bb;
+$css-string: #b5bc67;
+$css-url: #eec574;
+
+// javascript
+$javascript-comment: $gris;
+$javascript-ident: $blanc;
+$javascript-keyword: #db925f;
+$javascript-number: #db925f;
+$javascript-property-name: #82a1be;
+$javascript-property-value: #c2c3c3;
+$javascript-regexp: #c96666;
+$javascript-string: #b5bc67;
+
+// popover
+$popover-text: $blanc;
+$network-timing-bar: grey;
